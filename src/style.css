@@ -330,6 +330,14 @@ button:focus {
   text-align: center;
 }
 
+.home-about-description2 {
+  color: white !important;
+  padding-top: 100px !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+  font: italic small-caps bold 16px/2 cursive;
+}
+
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
@@ -337,6 +345,7 @@ button:focus {
 }
 
 .home-about-social {
+  font: italic small-caps bold 16px/2 cursive;
   text-align: center !important;
   padding-top: 25px;
   color: white !important;
