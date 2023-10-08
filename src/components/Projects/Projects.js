@@ -59,7 +59,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="ESP32 and Image Processing" 
-              description="The ESP32 Software Development project focuses on creating and implementing software applications for the ESP32 microcontroller platform. The ESP32 is a versatile and powerful microcontroller that supports both Wi-Fi and Bluetooth connectivity, making it suitable for a wide range of IoT (Internet of Things) and embedded systems applications. The project involves developing code and applications to leverage the capabilities of the ESP32 for various purposes. t make us able to take image and send it to sever using MQQTT protocole."
+              description="The ESP32 Software Development project focuses on creating and implementing software applications for the ESP32 microcontroller platform. The ESP32 is a versatile and powerful microcontroller that supports both Wi-Fi and Bluetooth connectivity, making it suitable for a wide range of IoT (Internet of Things) and embedded systems applications. The project involves developing code and applications to leverage the capabilities of the ESP32 for various purposes. t make us able to take image and send it to sever using MQTT protocole."
               ghLink="https://github.com/ismail3080/ESP32-software/tree/main/Code%20ESP32"
               //demoLink="https://plant49-ai.herokuapp.com/"
             />
