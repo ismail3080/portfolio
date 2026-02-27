@@ -11,6 +11,9 @@ import {
 import {
   SiRaspberrypi,
   SiArduino,
+  SiEspressif,
+  SiStmicroelectronics,
+  SiMqtt,
 } from "react-icons/si";
 
 
@@ -30,13 +33,22 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiEspressif />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiStmicroelectronics />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiRaspberrypi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiArduino />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiMqtt />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />

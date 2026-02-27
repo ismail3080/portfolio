@@ -8,24 +8,27 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Lichir Ismail </span>
-            from <span className="purple"> Meknes, Morocco.</span>
-            <br /> I am a final year student in Embedded systems at the highest school of technology Fez.
+            Hi, I’m <span className="purple">Lichir Ismail</span>, based in{" "}
+            <span className="purple">Toulon, France</span>.
             <br />
-            Additionally, I am currently senior tecnician in embedded systems
+            I’m currently an <span className="purple">M.Sc. student</span> in
+            <span className="purple"> IoT / Embedded Systems</span> (Epitech Marseille, 2025–2027)
+            and working as an <span className="purple">apprentice</span> After-Sales Service technician at
+            <span className="purple"> Groupe PE / Synapse Audiovisuel</span> (since March 2025).
             <br />
             <br />
-            Apart from hardware and electronics, some other coding activities that I love to do!
+            I enjoy building embedded & IoT systems (ESP32/STM32/Raspberry Pi), PCB design,
+            automation (PLC), and practical electronics troubleshooting.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> IoT prototyping & embedded projects
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Hackathons & tech challenges
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> E-sport
             </li>
           </ul>
 
