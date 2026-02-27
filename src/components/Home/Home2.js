@@ -4,8 +4,7 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -15,43 +14,31 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-          <Col md={8} className="home-about-description2">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            </Col>
             <p className="home-about-body">
-              I fell in love with programming, Electronics, micro-controlllers and I have at least learnt
-              something, I think… 🤷‍♂️
+              I’m passionate about programming, electronics, robotics and the Internet of Things.
               <br />
-              <br />I am fluent in classics like
+              <br />I work with
               <i>
-                <b className="purple"> C/C++, VHDL and others . </b>
+                <b className="purple"> C/C++, Python, VHDL </b>
+              </i>
+              , and I also build web tooling when it helps a project.
+              <br />
+              <br />
+              My main interests are &nbsp;
+              <i>
+                <b className="purple">embedded systems & IoT</b>, including ESP32/STM32/Raspberry Pi,
+                and industrial automation.
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              When relevant, I use modern frameworks
               <i>
-                <b className="purple">Electronics, and embedded systems industry </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Web Devloppement.
-                </b>
+                <b className="purple"> (React.js / Node.js)</b>
               </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing skills
-              with <b className="purple">Programming Language</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Technology and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              to build dashboards, tools, or APIs.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -79,16 +66,6 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Thomyy10756974?t=FqTC9VCJVI002T5AynOCXg&s=33"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
                   href="https://www.linkedin.com/in/ismail-lichir-3858a4222/"
                   target="_blank"
                   rel="noreferrer"
@@ -99,12 +76,10 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://instagram.com/thomyy_the_one?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-                  target="_blank"
-                  rel="noreferrer"
+                  href="mailto:ismaillichir501@gmail.com"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiOutlineMail />
                 </a>
               </li>
             </ul>

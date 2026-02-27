@@ -6,9 +6,9 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Embedded Systems Technician",
-          "Student",
-          "Open Source Contributor",
+          "M.Sc. IoT & Embedded Systems (Apprenticeship)",
+          "Embedded Systems & Robotics",
+          "IoT Prototyping (ESP32/STM32)",
         ],
         autoStart: true,
         loop: true,
