@@ -15,30 +15,33 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              QUI <span className="purple"> SUIS-JE </span> ?
             </h1>
             <p className="home-about-body">
-              I’m passionate about programming, electronics, robotics and the Internet of Things.
+              Je suis passionné par la programmation, l’électronique, la robotique
+              et l’Internet des Objets.
               <br />
-              <br />I work with
+              <br />Au quotidien, je travaille avec
               <i>
                 <b className="purple"> C/C++, Python, VHDL </b>
               </i>
-              , and I also build web tooling when it helps a project.
+              et je développe aussi des outils web quand ils apportent une vraie
+              valeur au projet.
               <br />
               <br />
-              My main interests are &nbsp;
+              Je m’intéresse particulièrement aux&nbsp;
               <i>
-                <b className="purple">embedded systems & IoT</b>, including ESP32/STM32/Raspberry Pi,
-                and industrial automation.
+                <b className="purple">systèmes embarqués et à l’IoT</b>, notamment
+                avec ESP32, STM32 et Raspberry Pi, ainsi qu’à l’automatisme
+                industriel.
               </i>
               <br />
               <br />
-              When relevant, I use modern frameworks
+              Selon les besoins, j’utilise aussi des frameworks modernes
               <i>
                 <b className="purple"> (React.js / Node.js)</b>
               </i>
-              to build dashboards, tools, or APIs.
+              pour créer des interfaces, outils métiers ou APIs.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -49,9 +52,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>RETROUVEZ-MOI</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              N’hésitez pas à <span className="purple">me contacter</span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
