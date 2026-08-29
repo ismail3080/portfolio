@@ -15,10 +15,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Mes <strong className="purple">projets </strong> récents
         </h1>
         <p style={{ color: "white" }}>
-          A few projects and prototypes from embedded systems & IoT.
+          Quelques réalisations autour des systèmes embarqués, de l’IoT et du développement applicatif.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -26,7 +26,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Tomato Sorting Machine (Raspberry Pi)"
-              description="Automated tomato sorting using computer vision on Raspberry Pi. Classifies tomatoes by color/size to reduce manual work and improve throughput."
+              description="Machine de tri automatique des tomates sur Raspberry Pi : reconnaissance par vision et séparation selon la couleur et le calibre."
               ghLink="https://github.com/ismail3080/Sorting-Tomato"
               demoLink="https://circuitdigest.com/microcontroller-projects/tomato-sorting-machine-using-raspberry-pi"
             />
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="TimeManager (Web App)"
-              description="Time tracking / attendance web app built with Node.js, React, TypeScript and SQL."
+              description="Application web de suivi du temps et de la présence, développée avec Node.js, React, TypeScript et SQL."
               ghLink="https://github.com/ismail3080/Time-Manager"
             />
           </Col>
@@ -47,7 +47,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="RFID Door Access Control"
-              description="Secure door access system using RFID + microcontroller. Validates authorized cards and controls the lock reliably."
+              description="Système de contrôle d’accès RFID pour porte sécurisée : vérification des badges autorisés et commande fiable du verrou."
               ghLink="https://github.com/ismail3080/RFID-DOOR-ACCEESS/tree/main"
               demoLink="https://lockconnection.net/rfid-locks-for-wood/"              
             />
@@ -58,7 +58,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="ESP32 IoT (MQTT / Edge)"
-              description="ESP32-based IoT prototypes, including sensor/data pipelines and MQTT communication for edge-connected devices."
+              description="Prototypes IoT sur ESP32 avec collecte de données capteurs et communication MQTT pour des usages edge."
               ghLink="https://github.com/ismail3080/ESP32-software/tree/main/Code%20ESP32"
               //demoLink="https://plant49-ai.herokuapp.com/"
             />

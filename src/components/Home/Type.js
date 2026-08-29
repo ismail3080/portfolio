@@ -6,9 +6,9 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "M.Sc. IoT & Embedded Systems (Apprenticeship)",
-          "Embedded Systems & Robotics",
-          "IoT Prototyping (ESP32/STM32)",
+          "Master IoT & Systèmes embarqués (alternance)",
+          "Support technique SAV & audiovisuel",
+          "Systèmes embarqués, robotique et IoT",
         ],
         autoStart: true,
         loop: true,

@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'm</strong>
+              À propos de <strong className="purple">moi</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -35,53 +35,54 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          <strong className="purple">Compétences </strong> techniques
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Outils</strong> que j’utilise
         </h1>
         <Toolstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Experience</strong>
+          <strong className="purple">Expérience</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "30px" }}>
           <Col md={10} style={{ color: "white", textAlign: "left" }}>
             <ul>
               <li>
-                <strong>Groupe PE / Synapse Audiovisuel</strong> — Apprentice After-Sales Service Technician (Mar 2025 – Present)
-                <br />Maintenance/repair of audiovisual equipment, on-site installation, and electronic diagnostics.
+                <strong>Synapse Audiovisuel</strong> — Alternant SAV / Support technique (mars 2025 – aujourd’hui)
+                <br />Support technique, suivi SAV, diagnostic et réparation de matériels audiovisuels professionnels.
               </li>
               <li>
-                <strong>YAZAKI MEKNES (YMM)</strong> — Final-year internship (Apr 2024 – Jun 2024)
-                <br />Stock management application and PVC sorting system; industrial automation (Siemens/Schneider).
+                <strong>YAZAKI MEKNES (YMM)</strong> — Stage PFE (avril 2024 – juin 2024)
+                <br />Développement d’une application de gestion de stock et optimisation d’un système de tri PVC en milieu industriel.
               </li>
               <li>
-                <strong>TINKIET France (Hybrid)</strong> — Final-year internship (Mar 2023 – Jun 2023)
-                <br />ESP32 PCB design, embedded programming, and edge computing exploration.
+                <strong>TINKIET France (hybride)</strong> — Stage PFE (mars 2023 – juin 2023)
+                <br />Conception de cartes ESP32, programmation embarquée et mise en place de solutions edge computing.
               </li>
               <li>
-                <strong>LCM – Aïcha</strong> — Maintenance internship (Jul 2022)
+                <strong>LCM – Aïcha</strong> — Stage d’observation (juillet 2022)
+                <br />Découverte de la maintenance industrielle et du diagnostic d’équipements.
               </li>
             </ul>
           </Col>
         </Row>
 
         <h1 className="project-heading">
-          <strong className="purple">Education</strong> & Certifications
+          <strong className="purple">Formation</strong> & certifications
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "30px" }}>
           <Col md={10} style={{ color: "white", textAlign: "left" }}>
             <ul>
-              <li><strong>M.Sc. — Information Systems Expertise (IoT)</strong>, Epitech Marseille (2025 – 2027)</li>
-              <li><strong>B.Sc. — Engineering Sciences</strong>, University of Toulon (2024 – 2025)</li>
-              <li><strong>B.Sc. — Electrical Engineering & Automation</strong>, FST (2023 – 2024)</li>
-              <li><strong>University Diploma — Embedded Systems</strong>, EST Fès (2021 – 2023)</li>
-              <li>Certifications: Safety-Critical Embedded Systems (INSA), Digital Electronics (PROTEUS), Edge Computing 3.0, OOP Python (2022)</li>
-              <li>Languages: Arabic (native), French (fluent), English (fluent)</li>
+              <li><strong>Master — Expertise des Systèmes d’Information (IoT)</strong>, Epitech Marseille (2025 – 2027)</li>
+              <li><strong>Licence Sciences pour l’ingénieur</strong>, Université de Toulon (2024 – 2025)</li>
+              <li><strong>Licence Sciences et Techniques EEA</strong>, Faculté des Sciences et Techniques (2023 – 2024)</li>
+              <li><strong>DUT Systèmes embarqués</strong>, EST Fès (2021 – 2023)</li>
+              <li>Certifications : Systèmes embarqués critiques (INSA), Digital Electronics (PROTEUS), Edge Computing 3.0, OOP Python</li>
+              <li>Langues : Arabe (maternelle), Français (B2/C1), Anglais (professionnel)</li>
             </ul>
           </Col>
         </Row>
